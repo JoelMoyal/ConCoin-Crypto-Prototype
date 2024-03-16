@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="../IMG/Bildmarke_Blau.gif">
+
+    <!-- --------------------
+     Stylesheets
+    -------------------- -->
+    <!-- Circ Font -->
+    <link rel="stylesheet" href="https://use.typekit.net/ayv1umj.css" />
+    <!-- Navigation -->
+    <link rel="stylesheet" href="../CSS/nav.css" />
+    <!-- Main Style -->
+    <link rel="stylesheet" href="../CSS/kontakt.css" />
+    <!-- Footer -->
+    <link rel="stylesheet" href="../CSS/footer.css" />
+
+    <title>KONTAKT</title>
+  </head>
+  <body>
+    <!-- --------------------
+     Navigation
+    -------------------- -->
+    <nav class="nav" style="background-color: black">
+      <div class="logo">
+        <a href="../index.html">
+          <img src="../IMG/weiss-weiss.gif" />
+        </a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li class="navlink"><a href="../index.html ">Home</a></li>
+          <li class="navlink"><a href="./about.html">Über</a></li>
+          <li class="navlink"><a href="./connection.html">Connection</a></li>
+          <li class="navlink"><a href="#contact" class="active">Kontakt</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </nav>
+
+    <!-- --------------------
+  Content
+ -------------------- -->
+    <section id="contact">
+      <h1 class="section-header">Kontakt</h1>
+
+      <div class="contact-wrapper">
+        <!---------------- 
+      
+            CONTACT PAGE LEFT 
+          
+            ----------------->
+
+        <form>
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Nachricht"
+          ></textarea>
+          <input type="submit" value="Absenden" />
+        </form>
+
+        <!---------------- 
+      
+            CONTACT PAGE RIGHT 
+          
+            ----------------->
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <img src="../IMG/Standort_icon.gif" alt="" />
+              <span class="contact-text">1234, Trier</span>
+            </li>
+
+            <li class="list-item">
+              <img src="../IMG/Handy_icon.gif" alt="" />
+              <span class="contact-text">
+                <a href="tel:1-212-555-5555" title="Ruf mich an!">
+                  (212) 555-2368
+                </a>
+              </span>
+            </li>
+
+            <li class="list-item">
+              <img src="../IMG/Mail_icon.gif" alt="" />
+              <span class="contact-text">
+                <a href="mailto:#" title="Sende mir eine email!">
+                  Info@concoin.crypto
+                </a>
+              </span>
+            </li>
+          </ul>
+        </div>
+
+        <!---------------- 
+      
+            Footer Social Icons 
+          
+            ----------------->
+        <div class="footer">
+          <hr />
+          <ul class="social-media-list">
+            <li>
+              <a href="https://www.instagram.com/concoin.crypto/" target="_blank" class="contact-icon">
+                <img src="../IMG/Instagram_icon.gif" alt="Instagram Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ConcoinCrypto" target="_blank" class="contact-icon">
+                <img src="../IMG/twitter_icon.gif" alt="twitter Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCUbE1ZL3_Zh1Ad0_1eNAVRQ/featured" target="_blank" class="contact-icon">
+                <img src="../IMG/youtube-icon.gif" alt="Youtube Icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/CONcoin-111020957724609" target="_blank" class="contact-icon">
+                <img src="../IMG/Facebook_icon.gif" alt="Facebook Icon" />
+              </a>
+            </li>
+          </ul>
+          <hr />
+
+          <div class="copyright">
+            &copy; ALL OF THE RIGHTS RESERVED BY Joel Moyal
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------
+     JavaScript
+    -------------------- -->
+    <!-- Jquerry https://jquery.com/-->
+    <!-- required for : Scrollbar, Navigation -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- mobile navigation and shrinking scrollbar after first scrolldown -->
+    <script src="../JS/nav.js"></script>
+  </body>
+</html>
