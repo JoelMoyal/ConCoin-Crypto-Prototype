@@ -1,14 +1,12 @@
 # CONcoin Project
-Creator: Naim Joel Moyal
+Contributers: Naim Joel Moyal
 
 [Link to website here](https://joelmoyal.github.io/ConCoinCryptoPrototype/)
 
-[Build Status : FINAL VERSION]
+   Project status: Final.
 
-[Used Technology]
-- HTML
-- CSS
-- Javascript
+> Technologies Used:  CSS, HTML, JavaScript
+
 
 
 Project Proposal: 
