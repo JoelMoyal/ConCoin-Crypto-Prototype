@@ -7,7 +7,7 @@ Contributers: Naim Joel Moyal
 
 > Technologies Used:  CSS, HTML, JavaScript
 
-
+<img src="./IMG/concoin.png">
 
 Project Proposal: 
 Concept and Design of a Website with Selected Print Materials for a Fictional Cryptocurrency
