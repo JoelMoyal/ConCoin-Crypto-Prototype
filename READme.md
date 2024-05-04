@@ -1,7 +1,7 @@
 # CONcoin Project
 Contributers: Naim Joel Moyal
 
-[Link to website here](https://joelmoyal.github.io/ConCoinCryptoPrototype/)
+[Link to website here](https://joelmoyal.github.io/ConCoin-Crypto-Prototype/)
 
    Project status: Final.
 
